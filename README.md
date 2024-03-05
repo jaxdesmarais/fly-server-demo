@@ -1,1 +1,1 @@
-This demo server is set up to use [Fly.io]([url](https://fly.io/docs/)) for hosting. To deploy a new version of the server run `fly deploy`
+This demo server is set up to use [Fly.io](https://fly.io/docs/) for hosting. To deploy a new version of the server run `fly deploy`
