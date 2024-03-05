@@ -1,0 +1,18 @@
+{
+  "name": "Braintree iOS Demo Apple Association",
+  "version": "1.0.0",
+  "description": "Used for hosting Braintree Demo apple-app-site-association",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Jax DesMarais-Leder",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.2"
+  }
+}

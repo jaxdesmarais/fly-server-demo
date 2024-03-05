@@ -1,0 +1,12 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appID": "1080748309.com.braintreepayments.Demo",
+                "paths": [
+                   "*", "/", "/*" 
+                ]
+            }
+        ]
+    }
+}
