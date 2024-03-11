@@ -9,7 +9,7 @@ app.get('/.well-known/apple-app-site-association', (request, response) => {
       "details": [
         {
           "appID": "43253H4X22.com.braintreepayments.Demo",
-          "paths": ["*", "/", "/*"]
+          "paths": ["*", "/", "/*", "/braintree-payments/*"]
         }
       ]
     }
@@ -17,7 +17,11 @@ app.get('/.well-known/apple-app-site-association', (request, response) => {
 })
 
 app.get('/', function(req, res){
-	res.send('Simple site for testing the universal links in iOS.Open /.well-known/apple-app-site-association route');
+	res.send('Simple site for testing the universal links in iOS. Open /.well-known/apple-app-site-association route');
+})
+
+app.get('/braintree-payments', function(req, res){
+	res.send('Braintree payments mock enpoint for testing Universal Links. Open /.well-known/apple-app-site-association route');
 })
 
 app.listen(port, function(){
